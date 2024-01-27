@@ -1,0 +1,98 @@
+{
+    "section": {
+        "about": "About",
+        "professional": "Professional",
+        "personal": "Personal",
+        "game-jams": "Game Jams"
+    },
+    "profile": {
+        "title": "Raúl Serrano Gómez - Video Game Programmer",
+        "rol": "<span class=\"text-brand\"> GAME PROGRAMMER </span>",
+        "description": "Video Game Programmer with more than 4 years of professional experience working with Unity and graduated in Video Game Development. Specialised in Gameplay, Artificial Intelligence and User Interface.",
+        "location": "Madrid, Spain",
+        "button": "See Portfolio"
+    },
+    "professional": {
+        "header": "Portfolio",
+        "subheader": "Professional",
+        "see-more": "See More",
+        "genre": "Genre",
+        "engine": "Engine",
+        "platforms": "Plataforms",
+        "team-size": "Team size",
+        "duties": "My duties",
+
+        "first-project-name": "Aces of the Multiverse",
+        "first-project-company": "Gammera Nest",
+        "first-project-description": "Multiplayer arcade football videogame for Playstation 4 with the possibility to synchronise it with the XPLORA Smartwatch.",
+        "first-project-genre": "City Builder & Puzzle",
+        "first-project-engine": "Unity",
+        "first-project-platforms": "PC, PS4, XBOX & Switch",
+        "first-project-team-size": "10+",
+        "first-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        
+        "second-project-name": "Unannounced Coop Adventure Game",
+        "second-project-company": "Stage Clear Studios",
+        "second-project-description": "Local co-operative action-adventure video game from a famous IP.",
+        "second-project-genre": "City Builder & Puzzle",
+        "second-project-engine": "Unity",
+        "second-project-platforms": "PC, PS4, XBOX & Switch",
+        "second-project-team-size": "10+",
+        "second-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+
+        "third-project-name": "Islanders Enhanced Edition",
+        "third-project-company": "Stage Clear Studios",
+        "third-project-description": "ISLANDERS is a minimalist strategy game in which you can build cities on colourful islands.",
+        "third-project-genre": "City Builder & Puzzle",
+        "third-project-engine": "Unity",
+        "third-project-platforms": "PC, PS4, XBOX & Switch",
+        "third-project-team-size": "10+",
+        "third-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+
+        "fourth-project-name": "Islanders: VR Edition",
+        "fourth-project-company": "Stage Clear Studios",
+        "fourth-project-description": "ISLANDERS is the critically acclaimed minimalist strategy game about building cities on colorful islands. Now coming to VR.",
+        "fourth-project-genre": "City Builder & Puzzle",
+        "fourth-project-engine": "Unity",
+        "fourth-project-platforms": "PC, PS4, XBOX & Switch",
+        "fourth-project-team-size": "10+",
+        "fourth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+
+        "fifth-project-name": "Unannounced City Builder",
+        "fifth-project-company": "Stage Clear Studios",
+        "fifth-project-description": "City Builder focused on management and strategy. Sequel to a successful Indie IP. News coming soon.",
+        "fifth-project-genre": "City Builder & Puzzle",
+        "fifth-project-engine": "Unity",
+        "fifth-project-platforms": "PC, PS4, XBOX & Switch",
+        "fifth-project-team-size": "10+",
+        "fifth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi."
+    },
+    "personal": {
+        "header": "Portfolio",
+        "subheader": "Personal",
+        "see-more": "Watch Demo",
+        "tool-project-name": "Social Presence VR",
+        "tool-project-company": "Unity - Unity Tool",
+        "tool-project-description": "Create interactive VR NPCs using behaviour trees."
+    },
+    "game-jams": {
+        "header": "Portfolio",
+        "subheader": "Game Jams",
+        "see-more": "Play",
+        "first-project-name": "The Orc Problem",
+        "first-project-company": "Unity - Action",
+        "first-project-description": "Go to the root of the problem!",
+        "second-project-name": "Tetris Run",
+        "second-project-company": "Unity - Puzzle",
+        "second-project-description": "Endless Runner Tetris",
+        "third-project-name": "Moonglove",
+        "third-project-company": "Unity - Platform",
+        "third-project-description": "Baseball on the moon!",
+        "fourth-project-name": "Antes del examen",
+        "fourth-project-company": "Unity - Puzzle",
+        "fourth-project-description": "Will you be able to pass?",
+        "fifth-project-name": "Keep here 4ever",
+        "fifth-project-company": "Unity - Platform",
+        "fifth-project-description": "It never ends..."
+    }
+}

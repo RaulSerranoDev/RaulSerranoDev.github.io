@@ -1,1406 +1,1161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-section="profile" data-value="title">Raúl Serrano Gómez - Video Game Programmer</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Raul Serrano-Icon.png">
 
-    <!-- Titulo -->
-    <title>Raúl Serrano Gómez - Programador de Videojuegos</title>
+    <!-- CSS Links-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-  </head>
-  <body>
+<!-- https://getbootstrap.com/docs/5.3/components/scrollspy/#via-data-attributes -->
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark justify-content-center shadow">
-      <div class="container-fluid">
+    <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
 
-        <!-- Boton Version movil -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Raúl Serrano Gómez</span>
+                <img src="./assets/images/Raul Serrano.png" class="d-none d-lg-block rounded-circle" alt="">
+            </a>
 
-        <!-- Links -->
-        <div class="collapse navbar-collapse w-100" id="navbarNav">
+            <!--https://flagicons.lipis.dev/ -->
+            <!-- IDIOMA -->
+            <div id="flags" class="flags mb-lg-3">
+                <div class="flags__item" data-language="en">
+                    <img src="/assets/images/gb.svg" alt="" class="flags__img">
+                </div>
+                <div class="flags__item" data-language="es">
+                    <img src="/assets/images/es.svg" alt="" class="flags__img">
+                </div>
+            </div>
 
-          <!-- Navegacion -->
-          <ul class="navbar-nav w-100 justify-content-center">
-            <li class="nav-item mx-1"><a class="nav-link" aria-current="page" href="#">Perfil</a></li>
-            <li class="nav-item mx-1"><a class="nav-link" href="#Proyectos">Proyectos</a></li>
-            <li class="nav-item mx-1"><a class="nav-link" href="#Experiencia">Experiencia</a></li>
-            <li class="nav-item mx-1"><a class="nav-link" href="#Habilidades">Habilidades</a></li>
-            <li class="nav-item mx-1"><a class="nav-link" href="#Contacto">Contacto</a></li>
-          </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <!-- Idiomas -->
-          <a href="/">
-            <img src="img/españa-logo.png" width=24 height="18" alt="español" class="mx-2 my-2">
-          </a>
-          <a href="en">
-            <img src="img/ingles-logo.png" width=24 height="18" alt="ingles" class="mx-2 my-2">
-          </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-section="section" data-value="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#professional" data-section="section"
+                            data-value="professional">Professional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personal" data-section="section" data-value="personal">Personal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game-jams" data-section="section" data-value="game-jams">Game
+                            Jams</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-
-
-      </div>
     </nav>
+    <!-- //NAVBAR -->
 
-    <!-- Home -->
-    <div class="container my-5 w-75" id="Home">
-      <div class="row">
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
 
-        <!-- Descripcion -->
-        <div class="col-md-7">
+        <!-- ABOUT -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
 
-          <!-- Nombre -->
-          <h1 class="display-3 mb-4">Raúl Serrano Gómez</h1>
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">Raúl Serrano Gómez</h1>
+                        <h1 class="display-6 fw-bold" data-aos="fade-up" data-section="profile" data-value="rol">GAME
+                            PROGRAMMER</h1>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300" data-section="profile"
+                            data-value="description">Description</p>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300" data-section="profile"
+                            data-value="location">Madrid, España</p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#professional" class="btn btn-brand me-3" data-section="profile"
+                                data-value="button">Explore My Work</a>
+                            <a href="mailto:raulserranodev@gmail.com" class="link-custom">raulserranodev@gmail.com</a>
+                        </div>
+                        <div class="col-auto lead mt-3 mb-3" data-aos="fade-up" data-aos-delay="900">
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/raul-serrano-gomez/" target="_blank"><i
+                                        class="lab la-linkedin"></i></a>
+                                <a href="https://studioseppuku.itch.io/" target="_blank"><i
+                                        class="lab la-itch-io"></i></a>
+                            </div>
+                        </div>
 
-          <!-- Descripcion -->
-          <p class="lead">
-            <img src="img/unity-logo.png" width="24" height="24" alt="unity" class="mx-2">
-            <strong>Programador de videojuegos</strong>, especializado en <strong>Unity</strong>.
-          </p>
-          <p class="lead">
-            <img src="img/ucm-logo.png" width="24" height="26" alt="ucm" class="mx-2">
-            Graduado en <strong>Desarrollo de Videojuegos</strong> en <strong>UCM</strong>.
-          </p>
-          <p class="lead">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="mx-2 bi bi-trophy" viewBox="0 0 16 16">
-              <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.13 2.028.457 3.546.87 4.667C5.294 9.48 6.484 10 7 10a.5.5 0 0 1 .5.5v2.61a1 1 0 0 1-.757.97l-1.426.356a.5.5 0 0 0-.179.085L4.5 15h7l-.638-.479a.501.501 0 0 0-.18-.085l-1.425-.356a1 1 0 0 1-.757-.97V10.5A.5.5 0 0 1 9 10c.516 0 1.706-.52 2.57-2.864.413-1.12.74-2.64.87-4.667.03-.463.049-.952.056-1.469H3.504z"/>
-            </svg>
-            <strong>2 años de experiencia profesional</strong> trabajando en la industria.
-          </p>
-          <p class="lead text-muted">
-            <img src="img/españa-logo.png" width=24 height="18" alt="españa" class="mx-2">
-            España - Madrid
-          </p>
-
-          <!-- Botones -->
-          <div class="d-grid gap-2 d-md-block mt-4">
-            <a href="mailto:raulserranodev@gmail.com" type="button" class="btn btn-outline-primary btn-lg mx-1 shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="mx-1 bi bi-envelope" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-              </svg>
-              Contáctame
-            </a>
-            <a href="Raúl Serrano Gómez - Programador de Videojuegos.pdf" class="btn btn-outline-dark btn-lg mx-1 shadow-sm" download>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="mx-1 bi bi-download" viewBox="0 0 16 16">
-                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-              </svg>
-              Descargar CV
-            </a>
-          </div>
-        </div>
-
-        <!-- Imagen -->
-        <div class="col-md-5">
-          <img src="img/Raul.jpeg" class="img-fluid rounded my-4 shadow" alt="Raúl Serrano Gomez">
-        </div>
-
-      </div>
-      </div>
-
-    </div>
-
-    <!-- Separator -->
-    <div class="container w-50">
-     <hr/>
-    </div>
-
-    <!-- Proyectos -->
-    <div class="container my-5 w-75" id="Proyectos">
-
-      <!-- Titulo -->
-      <h1 class="text-center mb-5 display-4" style="padding-top: 100px; margin-top: -100px;">Proyectos</h1>
-
-      <!-- Destacados -->
-      <div class="row my-5">
-
-        <!-- Descripcion seccion -->
-        <h2 class="mb-4">Destacados</h2>
-
-        <!-- Project 1 -->
-        <div class="col-lg-4 my-2">
-            <div class="card text-center mb-3 shadow">
-              <img src="img/aces.jpg" class="card-img-top" alt="Aces of the Multiverse">
-              <div class="card-body">
-                <h5 class="card-title">Aces of the Multiverse</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Videojuego PS4 y Xplora</h6>
-                <p class="card-text">Programador Unity en Gammera Nest</p>
-                <p class="card-text"><small class="text-muted">2018 - 2019</small></p>
-                <a href="https://gammeranest.com/aces-of-the-multiverse" class="btn btn-primary btn-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
-                  Ver más
-                </a>
-              </div>
-            </div>
-          </div>
-
-        <!-- Project 2 -->
-        <div class="col-lg-4 my-2">
-            <div class="card text-center mb-3 shadow">
-              <img src="img/SocialPresenceVR.PNG" class="card-img-top" alt="SocialPresenceVR">
-              <div class="card-body">
-                <h5 class="card-title">Social Presence VR</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Herramienta de Unity</h6>
-                <p class="card-text">Diseñador y programador en Narratech Laboratories</p>
-                <p class="card-text"><small class="text-muted">2019 - 2020</small></p>
-                <a href="https://www.youtube.com/watch?v=RxD1aIXbKv0&ab_channel=Ra%C3%BAlSerranoG%C3%B3mez" class="btn btn-primary btn-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                  </svg>
-                  Ver más
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-
-      </div>
-
-      <!-- Game Jam -->
-      <div class="row my-5">
-
-        <!-- Descripcion seccion -->
-        <h2 class="">Game Jams</h2>
-
-        <!-- Cartas -->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-4 g-3">
-
-          <div class="col">
-            <div class="card h-100 shadow">
-              <img src="img/keephere.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Keep here 4ever</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Plataformas</h6>
-                <p class="card-text">Nunca termina...</p>
-                <p class="card-text"><small class="text-muted">72h - Zeno Jam</small></p>
-                <a href="https://studioseppuku.itch.io/keep-here-4ever" class="btn btn-primary btn-sm">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                    <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                  </svg>
-                  Jugar en el navegador
-                </a>
-              </div>
-            </div>
-          </div>
-
-            <div class="col">
-              <div class="card h-100 shadow">
-                <img src="img/24h.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">24h Antes del examen</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Puzzle</h6>
-                  <p class="card-text">¿Conseguirás aprobar?</p>
-                  <p class="card-text"><small class="text-muted">1 semana - Jasper Game Jam</small></p>
-                  <a href="https://studioseppuku.itch.io/24h-antes-del-examen" class="btn btn-primary btn-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                      <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                    </svg>
-                    Jugar en el navegador
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card h-100 shadow">
-                <img src="img/moonglove.gif" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Moonglove</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Plataformas</h6>
-                  <p class="card-text">¡Béisbol en la luna!</p>
-                  <p class="card-text"><small class="text-muted">1 mes - Game Off 2020</small></p>
-                  <a href="https://studioseppuku.itch.io/moonglove" class="btn btn-primary btn-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                      <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                    </svg>
-                    Jugar en el navegador
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card h-100 shadow">
-                <img src="img/tetrisRun.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Tetris Run</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Puzzle</h6>
-                  <p class="card-text">Endless Runner Tetris</p>
-                  <p class="card-text"><small class="text-muted">48h - Mix and Game Jam 2020</small></p>
-                  <a href="https://studioseppuku.itch.io/tetrisrun" class="btn btn-primary btn-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                      <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                    </svg>
-                    Jugar en el navegador
-                  </a>
-                 </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card h-100 shadow">
-                <img src="img/theOrcProblem.PNG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">The Orc Problem</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Acción</h6>
-                  <p class="card-text">¡Ve a la raiz del problema!</p>
-                  <p class="card-text"><small class="text-muted">1 semana - WGJ 166</small></p>
-                  <a href="https://raulserranodev.itch.io/the-orc-problem" class="btn btn-primary btn-sm">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                      <path d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-                    </svg>
-                    Jugar en el navegador
-                  </a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-      </div>
-
-    </div>
-
-    <!-- Separator -->
-    <div class="container w-50">
-     <hr/>
-    </div>
-
-    <!-- Experiencia -->
-    <div class="container my-5 w-75" id="Experiencia">
-
-      <!-- Titulo -->
-      <h1 class="text-center mb-5 display-4" style="padding-top: 100px; margin-top: -100px;">Experiencia</h1>
-
-      <!-- Cards -->
-      <div class="row">
-        <div class="col-md-1"></div>
-
-        <div class="col-md">
-          <h3 class="my-4 text-start mx-2">Experiencia Laboral</h3>
-          <div class="row row-cols-1 row-cols-md-1 g-4">
-
-            <!-- Skill 1-->
-            <div class="col">
-              <div class="card mb-3 shadow">
-                <div class="row g-0">
-
-                  <!-- Img -->
-                  <div class="col-md-3">
-                    <img src="img/eProsima.png" class="card-img-top" alt="...">
-                  </div>
-
-                  <!-- Body -->
-                  <div class="col-md">
-                    <div class="card-body">
-                      <h5 class="card-title">Ingeniero de software - eProsima</h5>
-                      <p class="card-text"><small class="text-muted">2021 - actualidad</small></p>
-                      <p class="card-text ">Programador C++ de Fast DDS middleware.
-                         Diseño de nuevas características, desarrollo multiplataforma
-                          (Linux y Windows), testing de funcionalidad y rendimiento,
-                           revisiones de código, integración continua y documentación. </p>
                     </div>
-                  </div>
-
                 </div>
-              </div>
             </div>
+        </section>
+        <!-- //ABOUT -->
 
-            <!-- Skill 2-->
-            <div class="col">
-              <div class="card mb-3 shadow">
-                <div class="row g-0">
+        <!-- PROFESSIONAL -->
+        <section id="professional" class="full-height px-lg-5">
+            <div class="container">
 
-                  <!-- Img -->
-                  <div class="col-md-3">
-                    <img src="img/foxy256.png" class="card-img-top" alt="...">
-                  </div>
-
-                  <!-- Body -->
-                  <div class="col-md">
-                    <div class="card-body">
-                      <h5 class="card-title">Desarrollador Unity - Game Jams</h5>
-                      <p class="card-text"><small class="text-muted">2020 - 2021</small></p>
-                      <p class="card-text ">Durante medio año estuve desarrollando Game Jams en un equipo de 2 personas para aprender y
-                         demostrar mi capacidad de adaptarme a la creación de diferentes tipos de videojuegos
-                         y tiempos de desarrollo.</p>
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h5 class="text-brand" data-section="professional" data-value="header">Projects</h5>
+                        <h1 data-section="professional" data-value="subheader">Professional</h1>
                     </div>
-                  </div>
-
                 </div>
-              </div>
-            </div>
 
-            <!-- Skill 3-->
-            <div class="col">
-              <div class="card mb-3 shadow">
-                <div class="row g-0">
+                <div class="row gy-4">
 
-                  <!-- Img -->
-                  <div class="col-md-3">
-                    <img src="img/gammera.jpg" class="card-img-top" alt="...">
-                  </div>
+                    <!-- Project 5 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
 
-                  <!-- Body -->
-                  <div class="col-md">
-                    <div class="card-body">
-                      <h5 class="card-title">Programador Unity - Gammera Nest</h5>
-                      <p class="card-text"><small class="text-muted">2018 - 2019</small></p>
-                      <p class="card-text ">Desarrollo de videojuegos para PC, PS4 y Android,
-                         comunicación PC/PS4 - Android,
-                         desarrollo de prototipos con PlayStation VR y Oculus Rift,
-                         construcción de la Inteligencia Artificial con Behavior Designer.
-                         El proyecto más destacado en el que participé fue Aces of the Multiverse.</p>
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/stageclear.jpg" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="professional" data-value="fifth-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="professional"
+                                    data-value="fifth-project-company">
+                                    Company</p>
+                                <p data-section="professional" data-value="fifth-project-description">Description</p>
+
+                                <div class="row gy-4 justify-content-between">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-sml btn-brand me-3" data-bs-toggle="modal"
+                                            data-bs-target="#modal-5" data-section="professional"
+                                            data-value="see-more">Explore My Work</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="platform-icons">
+                                            <i class="las la-mouse platform-icons-block"></i>
+                                            <i class="las la-gamepad platform-icons-block"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
-                  </div>
 
-                </div>
-              </div>
-            </div>
+                    <!-- Project 4 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
 
-          </div>
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/islandersVR.jpg" alt="">
+                            </div>
 
-          <h3 class="my-4 text-start mx-2">Formación</h3>
-          <div class="row row-cols-1 row-cols-md-1 g-4">
-            <!-- Skill 1-->
-            <div class="col">
-              <div class="card mb-3 shadow">
-                <div class="row g-0">
+                            <div class="class-custom-content p-4">
 
-                  <!-- Img -->
-                  <div class="col-md-3">
-                    <img src="img/ucm-logo.jpg" class="card-img-top" alt="...">
-                  </div>
+                                <h4 data-section="professional" data-value="fourth-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="professional"
+                                    data-value="fourth-project-company">
+                                    Company</p>
+                                <p data-section="professional" data-value="fourth-project-description">Description</p>
 
-                  <!-- Body -->
-                  <div class="col-md">
-                    <div class="card-body">
-                      <h5 class="card-title">Grado en Desarrollo de Videojuegos - Universidad Complutense de Madrid</h5>
-                      <p class="card-text"><small class="text-muted">2015 - 2020</small></p>
-                      <p class="card-text  ">He recibido la formación de un ingeniero informático, adaptado al desarrollo de videojuegos, manejando diferentes entornos y aprendiendo las bases de otros ámbitos (diseño, graficos, animaciones, sonido, producción) para una mejor comunicación con los demás departamentos.</p>
+                                <div class="row gy-4 justify-content-between">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-sml btn-brand me-3" data-bs-toggle="modal"
+                                            data-bs-target="#modal-4" data-section="professional"
+                                            data-value="see-more">Explore My Work</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="platform-icons">
+                                            <a href="https://playislanders.com/" target="_blank"><i
+                                                    class="las la-vr-cardboard"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
-                  </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/islanders.jpg" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="professional" data-value="third-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="professional"
+                                    data-value="third-project-company">
+                                    Company</p>
+                                <p data-section="professional" data-value="third-project-description">Description</p>
+
+                                <div class="row gy-4 justify-content-between">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-sml btn-brand me-3" data-bs-toggle="modal"
+                                            data-bs-target="#modal-3" data-section="professional"
+                                            data-value="see-more">Explore My Work</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="platform-icons">
+                                            <a href="https://playislanders.com/" target="_blank"><i
+                                                    class="las la-mouse"></i></a>
+                                            <a href="https://playislanders.com/" target="_blank"><i
+                                                    class="las la-gamepad"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/stageclear.jpg" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="professional" data-value="second-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="professional"
+                                    data-value="second-project-company">
+                                    Company</p>
+                                <p data-section="professional" data-value="second-project-description">Description</p>
+
+                                <div class="row gy-4 justify-content-between">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-sml btn-brand me-3" data-bs-toggle="modal"
+                                            data-bs-target="#modal-2" data-section="professional"
+                                            data-value="see-more">Explore My Work</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="platform-icons">
+                                            <i class="las la-mouse platform-icons-block"></i>
+                                            <i class="las la-gamepad platform-icons-block"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="col-xl-4 col-lg-6 col-md-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/aces.jpg" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="professional" data-value="first-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="professional"
+                                    data-value="first-project-company">
+                                    Company</p>
+                                <p data-section="professional" data-value="first-project-description">Description</p>
+
+                                <div class="row gy-4 justify-content-between">
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-sml btn-brand me-3" data-bs-toggle="modal"
+                                            data-bs-target="#modal-1" data-section="professional"
+                                            data-value="see-more">Explore My Work</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="platform-icons">
+                                            <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000"
+                                                target="_blank"><i class="lab la-playstation"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
-              </div>
-            </div>
-          </div>
 
+            </div>
+        </section>
+
+        <!-- Modal 5 -->
+
+        <!-- Cambiar ID -->
+        <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scroll">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <!-- Cambiar nombre -->
+                        <h3 class="modal-title" id="modal-title" data-section="professional"
+                            data-value="fifth-project-name">Project</h3>
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pb-4">
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <!-- Cambiar link -->
+                                <img src="./assets/images/stageclear.jpg" alt="">      
+                            </div>
+
+                            <div class="row gy-4 justify-content-between mt-1 mb-4">
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <!-- Cambiar nombre -->
+                                    <a href="https://gammeranest.com/" target="_blank" class="link-custom h5 mb-0" data-section="professional"
+                                    data-value="fifth-project-company">Company</a>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <div class="social-icons link-icon">
+                                        <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000" target="_blank"><i
+                                                class="las la-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-puzzle-piece"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="genre">Genre</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fifth-project-genre">Genre</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-tools"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="engine">Engine</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fifth-project-engine">Engine</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-gamepad"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="platforms">Platforms</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fifth-project-platforms">Platforms</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-users"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="team-size">Team Size</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fifth-project-team-size">Team Size</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-user-ninja"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="duties">My Duties</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fifth-project-duties">Duties</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="col-md-1"></div>
-      </div>
+        <!-- //Modal 5 -->
+
+        <!-- Modal 4 -->
+
+        <!-- Cambiar ID -->
+        <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scroll">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <!-- Cambiar nombre -->
+                        <h3 class="modal-title" id="modal-title" data-section="professional"
+                            data-value="fourth-project-name">Project</h3>
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pb-4">
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <!-- Cambiar link -->
+                                <iframe id="video-4" class="player" src="https://www.youtube.com/embed/n7mYz3EmCt8?si=eRJlbuoFmGp55QTD"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <div class="row gy-4 justify-content-between mt-1 mb-4">
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <!-- Cambiar nombre -->
+                                    <a href="https://gammeranest.com/" target="_blank" class="link-custom h5 mb-0" data-section="professional"
+                                    data-value="fourth-project-company">Company</a>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <div class="social-icons link-icon">
+                                        <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000" target="_blank"><i
+                                                class="las la-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-puzzle-piece"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="genre">Genre</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fourth-project-genre">Genre</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-tools"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="engine">Engine</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fourth-project-engine">Engine</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-gamepad"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="platforms">Platforms</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fourth-project-platforms">Platforms</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-users"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="team-size">Team Size</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fourth-project-team-size">Team Size</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-user-ninja"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="duties">My Duties</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="fourth-project-duties">Duties</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //Modal 4 -->
+
+        <!-- Modal 3 -->
+
+        <!-- Cambiar ID -->
+        <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scroll">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <!-- Cambiar nombre -->
+                        <h3 class="modal-title" id="modal-title" data-section="professional"
+                            data-value="third-project-name">Project</h3>
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pb-4">
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <!-- Cambiar link -->
+                                <iframe id="video-3" class="player" src="https://www.youtube.com/embed/JeEmwdCkMgk?si=H7e_6KMyEwlck-tz"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <div class="row gy-4 justify-content-between mt-1 mb-4">
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <!-- Cambiar nombre -->
+                                    <a href="https://gammeranest.com/" target="_blank" class="link-custom h5 mb-0" data-section="professional"
+                                    data-value="third-project-company">Company</a>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <div class="social-icons link-icon">
+                                        <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000" target="_blank"><i
+                                                class="las la-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-puzzle-piece"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="genre">Genre</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="third-project-genre">Genre</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-tools"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="engine">Engine</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="third-project-engine">Engine</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-gamepad"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="platforms">Platforms</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="third-project-platforms">Platforms</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-users"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="team-size">Team Size</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="third-project-team-size">Team Size</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-user-ninja"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="duties">My Duties</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="third-project-duties">Duties</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //Modal 3 -->
+
+        <!-- Modal 2 -->
+
+        <!-- Cambiar ID -->
+        <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scroll">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <!-- Cambiar nombre -->
+                        <h3 class="modal-title" id="modal-title" data-section="professional"
+                            data-value="second-project-name">Project</h3>
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pb-4">
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <!-- Cambiar link -->
+                                <img src="./assets/images/stageclear.jpg" alt="">         
+                            </div>
+
+                            <div class="row gy-4 justify-content-between mt-1 mb-4">
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <!-- Cambiar nombre -->
+                                    <a href="https://gammeranest.com/" target="_blank" class="link-custom h5 mb-0" data-section="professional"
+                                    data-value="second-project-company">Company</a>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <div class="social-icons link-icon">
+                                        <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000" target="_blank"><i
+                                                class="las la-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-puzzle-piece"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="genre">Genre</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="second-project-genre">Genre</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-tools"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="engine">Engine</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="second-project-engine">Engine</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-gamepad"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="platforms">Platforms</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="second-project-platforms">Platforms</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-users"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="team-size">Team Size</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="second-project-team-size">Team Size</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-user-ninja"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="duties">My Duties</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="second-project-duties">Duties</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //Modal 2 -->
+
+        <!-- Modal 1 -->
+
+        <!-- Cambiar ID -->
+        <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scroll">
+                <div class="modal-content rounded-4">
+                    <div class="modal-header">
+                        <!-- Cambiar nombre -->
+                        <h3 class="modal-title" id="modal-title" data-section="professional"
+                            data-value="first-project-name">Project</h3>
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pb-4">
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <!-- Cambiar link -->
+                                <iframe id="video-1" class="player" src="https://www.youtube.com/embed/bnw7Yy1zrxo?si=0KndH6YwTcocLbFQ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <div class="row gy-4 justify-content-between mt-1 mb-4">
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <!-- Cambiar nombre -->
+                                    <a href="https://gammeranest.com/" target="_blank" class="link-custom h5 mb-0" data-section="professional"
+                                    data-value="first-project-company">Company</a>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- Cambiar link -->
+                                    <div class="social-icons link-icon">
+                                        <a href="https://store.playstation.com/es-es/product/EP0811-CUSA17221_00-0000000000000000" target="_blank"><i
+                                                class="las la-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row gy-4">
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-puzzle-piece"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="genre">Genre</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="first-project-genre">Genre</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-tools"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="engine">Engine</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="first-project-engine">Engine</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-gamepad"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="platforms">Platforms</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="first-project-platforms">Platforms</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-users"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="team-size">Team Size</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="first-project-team-size">Team Size</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 d-grid" data-aos="fade-up">
+                                    <div class="service p-4 bg-base rounded-4 shadow-effect">
+                                        <a class="text-right position-absolute top-0 end-0">
+                                            <div class="iconbox-small rounded-3">
+                                                <i class="las la-user-ninja"></i>
+                                            </div>
+                                        </a>
+                                        <h5 class="mt-2 mb-2" data-section="professional"
+                                        data-value="duties">My Duties</h5>
+                                        <!-- Cambiar nombre -->
+                                        <p data-section="professional"
+                                        data-value="first-project-duties">Duties</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //Modal 1 -->
+
+        <!-- //PROFESSIONAL -->
+
+        <!-- PERSONAL -->
+
+        <section id="personal" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h5 class="text-brand" data-section="personal" data-value="header">Projects</h5>
+                        <h1 data-section="personal" data-value="subheader">Personal</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <!-- Tool -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/SocialPresenceVR.png" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="personal" data-value="tool-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="personal" data-value="tool-project-company">
+                                    Company</p>
+                                <p data-section="personal" data-value="tool-project-description">Description</p>
+
+                                <a href="https://www.youtube.com/watch?v=RxD1aIXbKv0" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="personal"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- //PERSONAL -->
+
+        <!-- GAME JAMS -->
+
+        <section id="game-jams" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h5 class="text-brand" data-section="game-jams" data-value="header">Projects</h5>
+                        <h1 data-section="game-jams" data-value="subheader">Game Jams</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <!-- Project 5 -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/keephere.gif" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="game-jams" data-value="fifth-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="game-jams" data-value="fifth-project-company">
+                                    Company</p>
+                                <p data-section="game-jams" data-value="fifth-project-description">Description</p>
+
+                                <a href="https://studioseppuku.itch.io/keep-here-4ever" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="game-jams"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/24h.jpg" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="game-jams" data-value="fourth-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="game-jams" data-value="fourth-project-company">
+                                    Company</p>
+                                <p data-section="game-jams" data-value="fourth-project-description">Description</p>
+
+                                <a href="https://studioseppuku.itch.io/24h-antes-del-examen" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="game-jams"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/moonglove.gif" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="game-jams" data-value="third-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="game-jams" data-value="third-project-company">
+                                    Company</p>
+                                <p data-section="game-jams" data-value="third-project-description">Description</p>
+
+                                <a href="https://studioseppuku.itch.io/moonglove" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="game-jams"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/tetrisRun.png" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="game-jams" data-value="second-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="game-jams" data-value="second-project-company">
+                                    Company</p>
+                                <p data-section="game-jams" data-value="second-project-description">Description</p>
+
+                                <a href="https://studioseppuku.itch.io/tetrisrun" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="game-jams"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 d-grid" data-aos="zoom-in">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/theOrcProblem.png" alt="">
+                            </div>
+
+                            <div class="class-custom-content p-4">
+
+                                <h4 data-section="game-jams" data-value="first-project-name">Project Name</h4>
+                                <p class="text-brand mb-2" data-section="game-jams" data-value="first-project-company">
+                                    Company</p>
+                                <p data-section="game-jams" data-value="first-project-description">Description</p>
+
+                                <a href="https://raulserranodev.itch.io/the-orc-problem" target="_blank"
+                                    class="btn btn-sml btn-brand me-3" data-section="game-jams"
+                                    data-value="see-more">Explore My Work</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- //GAME JAMS -->
+
+        <!-- FOOTER -->
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-auto">
+                        <a href="mailto:raulserranodev@gmail.com" class="link-custom mb-0">raulserranodev@gmail.com</a>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/raul-serrano-gomez/" target="_blank"><i
+                                    class="lab la-linkedin"></i></a>
+                            <a href="https://studioseppuku.itch.io/" target="_blank"><i class="lab la-itch-io"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //FOOTER -->
 
     </div>
+    <!-- //CONTENT WRAPPER -->
+
+    <!-- JS Links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script>
+        // Limpiar la fuente del video al cerrar el modal
+        $('#modal-1').on('hidden.bs.modal', function (e) {
+            var iframe = $('#video-1');
+            iframe.attr('src', 'https://www.youtube.com/embed/bnw7Yy1zrxo?si=0KndH6YwTcocLbFQ');
+        });
+        $('#modal-3').on('hidden.bs.modal', function (e) {
+            var iframe = $('#video-3');
+            iframe.attr('src', 'https://www.youtube.com/embed/JeEmwdCkMgk?si=H7e_6KMyEwlck-tz');
+        });
+        $('#modal-4').on('hidden.bs.modal', function (e) {
+            var iframe = $('#video-4');
+            iframe.attr('src', 'https://www.youtube.com/embed/n7mYz3EmCt8?si=eRJlbuoFmGp55QTD');
+        });
+    </script>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    
+</body>
 
-    <!-- Separator -->
-    <div class="container w-50">
-     <hr/>
-    </div>
-
-    <!-- Habilidades -->
-    <div class="container my-5 w-75" id="Habilidades">
-
-      <!-- Titulo -->
-      <h1 class="text-center mb-5 display-4" style="padding-top: 100px; margin-top: -100px;">Habilidades</h1>
-
-      <h2 class="my-4 text-start mx-2 display-5">Programación</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2">
-
-        <!-- Unity -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/unity-logo.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Unity</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- C# -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/csharp.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">C#</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- C++ -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/cplusplus.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">C++</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Bootstrap-->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/bootstrap.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Bootstrap</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- HTML -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/html.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">HTML5</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- JS-->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/js.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">JavaScript</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- CSS -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/css.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">CSS</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Python -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/python.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Python</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <h2 class="my-4 text-start mx-2 display-5">Unity</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2">
-
-        <!-- Behavior -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/behavior.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Behavior Trees</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- VR -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/vr.webp" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">VR</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Android -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/android.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Android</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- WebGL -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/webgl.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">WebGL</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Dotween -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/dotween.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">DOTween</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Mixamo -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/mixamo.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Mixamo</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- ProCamera -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/procamera.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Pro Camera 2D</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-      <h2 class="my-4 text-start mx-2 display-5">Otras</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-2">
-
-        <!-- GitHub -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/github.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">GitHub</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Trello -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/trello.jpeg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Trello</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Agile -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/agile.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Desarrollo ágil</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Photoshop -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/photosshop.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Photoshop</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Audacity -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/audacity.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Audacity</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Word -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/google.webp" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Word</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Blender -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-4">
-                <img src="img/blender.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-8">
-                <div class="card-body">
-                  <h5 class="card-title">Blender</h5>
-                  <p class="card-text">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                      <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-                      <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-                    </svg>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-
-      <h3 class="my-4 mt-5 text-start mx-2 display-5">Aptitudes</h3>
-      <div class="row row-cols-2 row-cols-md-2 g-4 pb-3">
-        <!-- Polivalente-->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-md-4">
-                <img src="img/polivalente.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Polivalente</h5>
-                  <p class="card-text">Soy un programador adaptable a diferentes aspectos del videojuego: Gameplay, UI, AI, animaciones, cámara, tecnologías, partículas, etc... </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Aspiracion-->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-md-4">
-                <img src="img/goal.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Aspiración</h5>
-                  <p class="card-text">Deseo ser partícipe de la creación de videojuegos que entretengan y/o aspiren a educar o ayudar a la sociedad.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Equipo -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-md-4">
-                <img src="img/equipi.png" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Trabajo en equipo</h5>
-                  <p class="card-text">Creo que una buena comunicación es esencial para el desarrollo de videojuegos. Soy una persona que sabe escuchar y comunicarse. Además, mi formación me facilita la comprensión con los demás departamentos.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Equipo -->
-        <div class="col">
-          <div class="card mb-3 shadow" style="max-width: 540px;">
-            <div class="row g-0">
-
-              <!-- Img -->
-              <div class="col-md-4">
-                <img src="img/eficiente.jpg" class="card-img-top" alt="...">
-              </div>
-
-              <!-- Body -->
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Eficiente</h5>
-                  <p class="card-text">Soy una persona trabajadora y creo que una buena organización es imprescindible para reducir el tiempo de desarrollo en todos los ambitos, tanto el reparto de tareas como en la creación de código.</p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Footer -->
-    <footer class="text-center" id="Contacto" style="background-color: rgba(0, 0, 0, 0.2)">
-
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        <a href="https://twitter.com/Raulserranodev" class="text-dark text-decoration-none">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter mx-2" viewBox="0 0 16 16">
-            <path  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/raulserranogomez/" class="text-dark text-decoration-none">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin  mx-2" viewBox="0 0 16 16">
-            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-          </svg>
-        </a>
-        <a href="mailto:raulserranodev@gmail.com" type="button" class="btn btn-warning btn-sm shadow-lg mx-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
-          </svg>
-          Contáctame
-        </a>
-        <a href="https://github.com/RaulSerranoDev" class="text-dark text-decoration-none">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github  mx-2" viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-          </svg>
-        </a>
-        <a href="https://studioseppuku.itch.io/">
-          <img src="img/itch-io.png" width="32" height="32" alt="itch.io" class=" mx-1">
-        </a>
-      </div>
-
-    </footer>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
-  </body>
 </html>
