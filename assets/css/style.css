@@ -270,14 +270,14 @@ img {
 
 /* FLAGS */
 .flags {
-    width: 75px;
+    width: 67.5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .flags__item {
-    width: 30px;
+    width: 27.5px;
 }
 
 .flags__img {
