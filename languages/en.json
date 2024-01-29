@@ -29,7 +29,7 @@
         "first-project-engine": "Unity",
         "first-project-platforms": "PS4",
         "first-project-team-size": "5+",
-        "first-project-duties": "- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. <br> Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "first-project-duties": "- <b> Gameplay: </b> Movement, Player Actions and Abilities, Score and Match Logic, Random Events (Buffs or Obstacles), Graphics and Sounds Integration. <br> <b> - Systems: </b> Input, Camera, Inventory, Ability, Sync PS4 - Smartwatch Xplora. <br> <b> - AI: </b> Behaviour Trees for Allies and Enemies. Each character with variations on tactics and/or behaviour. <br> <b> - UI: </b> Menu Flow, Gameplay (Match and Players Info), Synch with Xplora, Inventory, Stats Customization, Settings, Load Screen. <br> <b> - Tools: </b> Tool for read game parameters from a JSON, to help a design team without Unity knowledge.",
         
         "second-project-name": "Unannounced Coop Adventure Game",
         "second-project-company": "Stage Clear Studios",
@@ -38,7 +38,7 @@
         "second-project-engine": "Unity",
         "second-project-platforms": "Steam, PS4, Xbox & Switch",
         "second-project-team-size": "50+",
-        "second-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "second-project-duties": "<b> - Gameplay: </b> Player States (Movement, Combat, Stealth and Interaction), Interactable Objects. <br> <b> - Systems: </b> State Machine Transitions with Conditions Evaluation, Locomotion System for Not Humanoids. <br> <b> - AI: </b> Allies and Enemies Behaviour with State Machines, Movement, Combat, Stealth, Humanoid and Not Humanoid, Herd Management, Mobs and Bosses.",
 
         "third-project-name": "Islanders Enhanced Edition",
         "third-project-company": "Stage Clear Studios",
@@ -47,7 +47,7 @@
         "third-project-engine": "Unity",
         "third-project-platforms": "Steam, PS4, Xbox & Switch",
         "third-project-team-size": "15+",
-        "third-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "third-project-duties": "<b> - Gameplay: </b> QoL Adjustments, Update Camera, Bug Fixing. <br> <b> - Systems: </b> Gamepad Support. <br> <b> - UI: </b> Update Menu Flow, Tooltips, Tutorial and Settings, 4K Resolution Support, Friends Leaderboard. <br> <b> - Porting: </b> Nintendo Switch Optimization and Profiling (CPU & GPU). <br>",
 
         "fourth-project-name": "Islanders: VR Edition",
         "fourth-project-company": "Stage Clear Studios",
@@ -56,7 +56,7 @@
         "fourth-project-engine": "Unity",
         "fourth-project-platforms": "Meta & Steam",
         "fourth-project-team-size": "5+",
-        "fourth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "fourth-project-duties": "<b> - Gameplay: </b> Prototyping, Adapt Game Logic, Movement, Ray and Hand Interaction, VR Interactables. <br> <b> - Systems: </b> Input Support with VR, Hand Gesture Recognition. <br> <b> - UI: </b> Adapt UI to VR with World Canvas and World Interactables with Ray and Hands. <br> <b> - Porting: </b> Meta SDK Integration and Optimization. <br>",
 
         "fifth-project-name": "Unannounced City Builder",
         "fifth-project-company": "Stage Clear Studios",
@@ -65,7 +65,7 @@
         "fifth-project-engine": "Unity",
         "fifth-project-platforms": "Steam, PS5, Xbox & Switch",
         "fifth-project-team-size": "25+",
-        "fifth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi."
+        "fifth-project-duties": "- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. <br> - Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi. <br> - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. <br> - Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi. <br> "
     },
     "personal": {
         "header": "Portfolio",

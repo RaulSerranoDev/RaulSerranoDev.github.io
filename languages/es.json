@@ -29,7 +29,7 @@
         "first-project-engine": "Unity",
         "first-project-platforms": "PC, PS4, XBOX & Switch",
         "first-project-team-size": "10+",
-        "first-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "first-project-duties": "- <b> Gameplay: </b> Movimiento, Acciones y Habilidades del Jugador, Lógica de Puntuación y Partidas, Eventos Aleatorios (Buffs u Obstáculos), Integración de Gráficos y Sonidos. <br> <b> - Sistemas: </b> Input, Cámara, Inventario, Habilidades, Sync PS4 - Smartwatch Xplora. <br> <b> - IA: </b> Árboles de Comportamiento para Aliados y Enemigos. Cada personaje con variaciones de táctica y/o comportamiento. <br> <b> - IU: </b> Flujo de Menús, Jugabilidad (Info de Partida y Jugadores), Sync con Xplora, Inventario, Personalización de Estadísticas, Ajustes, Pantalla de Carga. <br> <b> - Herramientas: </b> Herramienta para leer parámetros del juego desde un JSON, para ayudar a un equipo de diseño sin conocimientos de Unity.",
         
         "second-project-name": "Videojuego Cooperativo de Aventura sin anunciar",
         "second-project-company": "Stage Clear Studios",
@@ -38,7 +38,7 @@
         "second-project-engine": "Unity",
         "second-project-platforms": "PC, PS4, XBOX & Switch",
         "second-project-team-size": "10+",
-        "second-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "second-project-duties": "<b> - Gameplay: </b> Estados del Jugador (Movimiento, Combate, Sigilo e Interacción), Objetos Interactuables. <br> <b> - Sistemas: </b> Transiciones de Máquinas de Estado con Evaluación de Condiciones, Sistema de Locomoción para No Humanoides. <br> <b> - IA: </b> Comportamiento de Aliados y Enemigos con Máquinas de Estado, Movimiento, Combate, Sigilo, Humanoides y No Humanoides, Gestión de Manadas, Mobs y Jefes.",
 
         "third-project-name": "Islanders Enhanced Edition",
         "third-project-company": "Stage Clear Studios",
@@ -47,7 +47,7 @@
         "third-project-engine": "Unity",
         "third-project-platforms": "PC, PS4, XBOX & Switch",
         "third-project-team-size": "10+",
-        "third-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "third-project-duties": "<b> - Gameplay: </b> Mejoras QoL, Actualización de la Cámara, Corrección de Errores. <br> <b> - Sistemas: </b> Soporte para Mando. <br> <b> - IU: </b> Actualización del Flujo de Menús, Tooltips, Tutorial y Opciones, Soporte 4K, Tabla de Clasificación de Amigos. <br> <b> - Porting: </b> Optimización y Profiling (CPU y GPU) para Nintendo Switch. <br>",
 
         "fourth-project-name": "Islanders: VR Edition",
         "fourth-project-company": "Stage Clear Studios",
@@ -56,7 +56,7 @@
         "fourth-project-engine": "Unity",
         "fourth-project-platforms": "PC, PS4, XBOX & Switch",
         "fourth-project-team-size": "10+",
-        "fourth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi.",
+        "fourth-project-duties": "<b> - Gameplay: </b> Prototipado, Adaptar Lógica de Juego, Movimiento, Interacción con Rayos y Manos, Interactuables VR. <br> <b> - Sistemas: </b> Soporte Input con VR, Reconocimiento de Gestos de Manos. <br> <b> - IU: </b> Adaptar IU a VR con Canvas de Mundo y Interactuables de Mundo con Rayos y Manos. <br> <b> - Porting: </b> Integración y Optimización de Meta SDK. <br>",
 
         "fifth-project-name": "City Builder sin anunciar",
         "fifth-project-company": "Stage Clear Studios",
