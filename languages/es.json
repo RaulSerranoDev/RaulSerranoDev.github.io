@@ -65,7 +65,7 @@
         "fifth-project-engine": "Unity",
         "fifth-project-platforms": "PC, PS4, XBOX & Switch",
         "fifth-project-team-size": "10+",
-        "fifth-project-duties": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eius minima rerum expedita. Rerum dolorem voluptatum quibusdam veritatis minus, eaque enim possimus cumque rem minima libero, placeat aperiam in sequi."
+        "fifth-project-duties": "<b> - Gameplay: </b> Controlador del Jugador con Máquinas de Estado, UI Basada en Eventos, Lógica del Juego (Reglas para la Construcción y Producción de Edificios, Gestión de Ciclos). <br> <b> - Sistemas: </b> Misiones, Tutorial, Diálogo, Notificaciones, Comercio, Arquitectura de UI (Prefabs y Scripts para Botones, Textos, Imágenes, Layouts, Animaciones, Filtros, Sliders, Carrousels). <br> <b> - IU: </b> Gestor de IU, Flujo de Menús, IU Dentro del Juego (General, Control del Juego, Información de Selección, Inventario, Misiones, Diálogo, Notificaciones, Comercio, Códice, Árbol de Talentos), Localización. <br> <b> - Tools: </b> Sistema de Gameplay Tag System para comparar Objetos con Multiples Tags con Ventana de Editor, como Unreal Engine. <br>"
     },
     "personal": {
         "header": "Portfolio",
