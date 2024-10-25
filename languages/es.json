@@ -73,7 +73,10 @@
         "see-more": "Ver Demo",
         "tool-project-name": "Social Presence VR",
         "tool-project-company": "Unity - Herramienta de Unity",
-        "tool-project-description": "Crea NPCs interactivos en VR utilizando árboles de comportamiento."
+        "tool-project-description": "Crea NPCs interactivos en VR utilizando árboles de comportamiento.",
+        "UE5-project-name": "GAS Prototype",
+        "UE5-project-company": "Unreal Engine 5",
+        "UE5-project-description": "Demo de un juego ARPG utilizando el Gameplay Ability System de UE5."
     },
     "game-jams": {
         "header": "Portfolio",
