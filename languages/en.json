@@ -8,7 +8,7 @@
     "profile": {
         "title": "Raúl Serrano Gómez - Video Game Programmer",
         "rol": "<span class=\"text-brand\"> GAME PROGRAMMER </span>",
-        "description": "Video Game Programmer with more than 4 years of professional experience working with Unity and graduated in Video Game Development. Specialised in Gameplay, Artificial Intelligence and User Interface.",
+        "description": "Video Game Programmer with more than 5 years of professional experience and graduated in Video Game Development. Specialised in Gameplay, Artificial Intelligence and User Interface.",
         "location": "Madrid, Spain",
         "button": "See Portfolio"
     },
@@ -58,9 +58,9 @@
         "fourth-project-team-size": "5+",
         "fourth-project-duties": "<b> - Gameplay: </b> Prototyping, Adapt Game Logic, Movement, Ray and Hand Interaction, VR Interactables. <br> <b> - Systems: </b> Input Support with VR, Hand Gesture Recognition. <br> <b> - UI: </b> Adapt UI to VR with World Canvas and World Interactables with Ray and Hands. <br> <b> - Porting: </b> Meta SDK Integration and Optimization. <br>",
 
-        "fifth-project-name": "Unannounced City Builder",
+        "fifth-project-name": "ISLANDERS: New Shores",
         "fifth-project-company": "Stage Clear Studios",
-        "fifth-project-description": "City Builder focused on management and strategy. Sequel to a successful Indie IP. News coming soon.",
+        "fifth-project-description": "Welcome to ISLANDERS: New Shores. Build your island retreat in a calm, minimalist world with exciting new features.",
         "fifth-project-genre": "City Builder & Strategy",
         "fifth-project-engine": "Unity",
         "fifth-project-platforms": "Steam, PS5, Xbox & Switch",

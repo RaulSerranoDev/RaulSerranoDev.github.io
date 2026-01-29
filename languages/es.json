@@ -8,7 +8,7 @@
     "profile": {
         "title": "Raúl Serrano Gómez - Programador de Videojuegos",
         "rol": "<span class=\"text-brand\"> PROGRAMADOR DE VIDEOJUEGOS </span>",
-        "description": "Programador de Videojuegos con más de 4 años de experiencia profesional trabajando con Unity y graduado en Desarrollo de Videojuegos. Especializado en Gameplay, Inteligencia Artificial e Interfaz de Usuario.",
+        "description": "Programador de Videojuegos con más de 5 años de experiencia profesional y graduado en Desarrollo de Videojuegos. Especializado en Gameplay, Inteligencia Artificial e Interfaz de Usuario.",
         "location": "Madrid, España",
         "button": "Ver Portfolio"
     },
@@ -28,7 +28,7 @@
         "first-project-genre": "City Builder & Puzzle",
         "first-project-engine": "Unity",
         "first-project-platforms": "PC, PS4, XBOX & Switch",
-        "first-project-team-size": "10+",
+        "first-project-team-size": "5+",
         "first-project-duties": "- <b> Gameplay: </b> Movimiento, Acciones y Habilidades del Jugador, Lógica de Puntuación y Partidas, Eventos Aleatorios (Buffs u Obstáculos), Integración de Gráficos y Sonidos. <br> <b> - Sistemas: </b> Input, Cámara, Inventario, Habilidades, Sync PS4 - Smartwatch Xplora. <br> <b> - IA: </b> Árboles de Comportamiento para Aliados y Enemigos. Cada personaje con variaciones de táctica y/o comportamiento. <br> <b> - IU: </b> Flujo de Menús, Jugabilidad (Info de Partida y Jugadores), Sync con Xplora, Inventario, Personalización de Estadísticas, Ajustes, Pantalla de Carga. <br> <b> - Herramientas: </b> Herramienta para leer parámetros del juego desde un JSON, para ayudar a un equipo de diseño sin conocimientos de Unity.",
         
         "second-project-name": "Videojuego Cooperativo de Aventura sin anunciar",
@@ -37,7 +37,7 @@
         "second-project-genre": "City Builder & Puzzle",
         "second-project-engine": "Unity",
         "second-project-platforms": "PC, PS4, XBOX & Switch",
-        "second-project-team-size": "10+",
+        "second-project-team-size": "50+",
         "second-project-duties": "<b> - Gameplay: </b> Estados del Jugador (Movimiento, Combate, Sigilo e Interacción), Objetos Interactuables. <br> <b> - Sistemas: </b> Transiciones de Máquinas de Estado con Evaluación de Condiciones, Sistema de Locomoción para No Humanoides. <br> <b> - IA: </b> Comportamiento de Aliados y Enemigos con Máquinas de Estado, Movimiento, Combate, Sigilo, Humanoides y No Humanoides, Gestión de Manadas, Mobs y Jefes.",
 
         "third-project-name": "Islanders Enhanced Edition",
@@ -46,7 +46,7 @@
         "third-project-genre": "City Builder & Puzzle",
         "third-project-engine": "Unity",
         "third-project-platforms": "PC, PS4, XBOX & Switch",
-        "third-project-team-size": "10+",
+        "third-project-team-size": "15+",
         "third-project-duties": "<b> - Gameplay: </b> Mejoras QoL, Actualización de la Cámara, Corrección de Errores. <br> <b> - Sistemas: </b> Soporte para Mando. <br> <b> - IU: </b> Actualización del Flujo de Menús, Tooltips, Tutorial y Opciones, Soporte 4K, Tabla de Clasificación de Amigos. <br> <b> - Porting: </b> Optimización y Profiling (CPU y GPU) para Nintendo Switch. <br>",
 
         "fourth-project-name": "Islanders: VR Edition",
@@ -55,16 +55,16 @@
         "fourth-project-genre": "City Builder & Puzzle",
         "fourth-project-engine": "Unity",
         "fourth-project-platforms": "PC, PS4, XBOX & Switch",
-        "fourth-project-team-size": "10+",
+        "fourth-project-team-size": "5+",
         "fourth-project-duties": "<b> - Gameplay: </b> Prototipado, Adaptar Lógica de Juego, Movimiento, Interacción con Rayos y Manos, Interactuables VR. <br> <b> - Sistemas: </b> Soporte Input con VR, Reconocimiento de Gestos de Manos. <br> <b> - IU: </b> Adaptar IU a VR con Canvas de Mundo y Interactuables de Mundo con Rayos y Manos. <br> <b> - Porting: </b> Integración y Optimización de Meta SDK. <br>",
 
-        "fifth-project-name": "City Builder sin anunciar",
+        "fifth-project-name": "ISLANDERS: New Shores",
         "fifth-project-company": "Stage Clear Studios",
-        "fifth-project-description": "City Builder centrado en la gestión y estrategia, secuela de una exitosa IP Indie. Pronto habrá noticias.",
+        "fifth-project-description": "Construye un retiro isleño en un mundo tranquilo y minimalista. Disfruta de las nuevas y emocionantes funciones.",
         "fifth-project-genre": "City Builder & Puzzle",
         "fifth-project-engine": "Unity",
         "fifth-project-platforms": "PC, PS4, XBOX & Switch",
-        "fifth-project-team-size": "10+",
+        "fifth-project-team-size": "25+",
         "fifth-project-duties": "<b> - Gameplay: </b> Controlador del Jugador con Máquinas de Estado, UI Basada en Eventos, Lógica del Juego (Reglas para la Construcción y Producción de Edificios, Gestión de Ciclos). <br> <b> - Sistemas: </b> Misiones, Tutorial, Diálogo, Notificaciones, Comercio, Arquitectura de UI (Prefabs y Scripts para Botones, Textos, Imágenes, Layouts, Animaciones, Filtros, Sliders, Carrousels). <br> <b> - IU: </b> Gestor de IU, Flujo de Menús, IU Dentro del Juego (General, Control del Juego, Información de Selección, Inventario, Misiones, Diálogo, Notificaciones, Comercio, Códice, Árbol de Talentos), Localización. <br> <b> - Tools: </b> Sistema de Gameplay Tag System para comparar Objetos con Multiples Tags con Ventana de Editor, como Unreal Engine. <br>"
     },
     "personal": {

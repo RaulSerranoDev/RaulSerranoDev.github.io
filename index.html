@@ -121,7 +121,7 @@
                         <div class="card-custom rounded-4 bg-base shadow-effect">
 
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/stageclear.jpg" alt="">
+                                <img class="rounded-4" src="./assets/images/islanders2.jpg" alt="">
                             </div>
 
                             <div class="class-custom-content p-4">
@@ -140,8 +140,10 @@
                                     </div>
                                     <div class="col-auto">
                                         <div class="platform-icons">
-                                            <i class="las la-mouse platform-icons-block"></i>
-                                            <i class="las la-gamepad platform-icons-block"></i>
+                                            <a href="https://playislanders.com/" target="_blank"><i
+                                                class="las la-mouse"></i></a>
+                                            <a href="https://playislanders.com/" target="_blank"><i
+                                                class="las la-gamepad"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +318,10 @@
 
                             <div class="row">
                                 <!-- Cambiar link -->
-                                <img src="./assets/images/stageclear.jpg" alt="">      
+                                <iframe id="video-5" class="player" src="https://www.youtube.com/embed/b3hCDB-29iI?si=ZijROQMKiDTrifKg" 
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen></iframe>
                             </div>
 
                             <div class="row gy-4 justify-content-between mt-1 mb-4">
@@ -1172,6 +1177,10 @@
         $('#modal-4').on('hidden.bs.modal', function (e) {
             var iframe = $('#video-4');
             iframe.attr('src', 'https://www.youtube.com/embed/n7mYz3EmCt8?si=eRJlbuoFmGp55QTD');
+        });
+        $('#modal-5').on('hidden.bs.modal', function (e) {
+            var iframe = $('#video-5');
+            iframe.attr('src', 'https://www.youtube.com/embed/b3hCDB-29iI?si=ZijROQMKiDTrifKg');
         });
     </script>
 
